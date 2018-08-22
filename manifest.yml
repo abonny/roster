@@ -6,9 +6,9 @@ applications:
   buildpacks:    
     - java_buildpack
   path: ./build/libs/roster.jar
-  #random-route: true
-  routes:
-  - route: roster-brave-chimpanzee.cfapps.io
+  random-route: true
+  #routes:
+  #- route: roster-brave-chimpanzee.cfapps.io
   services:
     - myDB
   env:
