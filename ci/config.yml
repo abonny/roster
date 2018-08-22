@@ -11,4 +11,4 @@ cf-dev-org: rscale-training-1 # set to your org
 cf-dev-space: luke # set to your space
 cf-dev-hostname: roster-lpahler # set to '<app-name>-<first_initial><lastname>'. ex: roster-sgreenberg
 cf-dev-domain: cfapps.io # set to the apps domain for your CF
-cf-dev-manifest: ../manifest.yml # set to the dev manifest path in your app repository. ex: dev-manifest.yml
+cf-dev-manifest: manifest.yml # set to the dev manifest path in your app repository. ex: dev-manifest.yml
