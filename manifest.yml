@@ -1,0 +1,17 @@
+---
+applications:
+- name: roster
+  memory: 750M
+  instances: 2
+  buildpacks:    
+    - java_buildpack
+  path: ./build/libs/roster.jar
+  random-route: true
+  routes:
+  - route: roster-brave-chimpanzee.cfapps.io
+  services:
+    - myDB
+  env:
+    ROSTER_A: avalue
+    ROSTER_B: bvalue
+    ROSTER_C: cvalue
