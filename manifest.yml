@@ -11,6 +11,7 @@ applications:
   #- route: roster-brave-chimpanzee.cfapps.io
   services:
     - myDB
+    - configuration-depot-service
   env:
     ROSTER_A: avalue
     ROSTER_B: bvalue
