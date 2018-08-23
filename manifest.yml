@@ -12,6 +12,7 @@ applications:
   services:
     - myDB
     - configuration-depot-service
+    - eureka-service
   env:
     ROSTER_A: avalue
     ROSTER_B: bvalue
